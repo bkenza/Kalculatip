@@ -44,10 +44,23 @@ body {
     transition: all 0.15s ease-out;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.box2 {
+    order: 2;
+    margin-left: 180px;
+    min-height: 600px;
+    padding-top: 70px;
+}
+
+.box1 {
+    order: 1;
+    text-align: center;
+    flex-basis: content;
+    margin-left: 200px;
+    border: 3px solid var(--orange);
+    margin-left: 200px;
+    height: 620px;
+    width: 400px;
+    text-align: center;
 }
 
 body.light-theme {
@@ -69,8 +82,14 @@ body.light-theme>main button {
     background-color: var(--white);
 }
 
-body.light-theme>main a {
-    background-color: var(--white);
+body.light-theme>main>div>form>input {
+    background-color: white;
+    color: black;
+}
+
+body.light-theme>main>div>form>select {
+    background-color: white;
+    color: var(--black)
 }
 
 header {
@@ -87,11 +106,10 @@ p {
     text-align: center;
     color: var(--white);
     font-size: 20px;
-    margin-top: 20px;
 }
 
-form {
-    justify-content: center;
+.p1 {
+    margin: 5px;
 }
 
 input {
@@ -118,11 +136,13 @@ select {
     padding: 13px 13px 20px 20px;
 }
 
+#totalTip {
+    text-align: center;
+}
+
 #people-num {
     width: 160px;
     margin: 20px;
-    background-color: var(--black);
-    color: white;
     border: 2px solid var(--orange);
     height: 40px;
     font-size: 14px;
@@ -144,22 +164,26 @@ button {
     font-weight: bold;
     cursor: pointer;
     width: 70px;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 #calculate {
     height: 30px;
     width: 80px;
+    margin-top: 0px;
+    margin-left: 165px;
+    margin-bottom: 5px;
 }
 
 .app {
-    position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
+    width: auto;
     min-height: 300px;
+    height: 620px;
     background-color: var(--black);
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
 }
 
 #change-theme-btn {
@@ -174,6 +198,24 @@ button {
     width: 70px;
     height: 30px;
     margin: 20px;
+    float: right;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+#about {
+    font-size: 14px;
+    display: block;
+    border: 1px solid var(--orange);
+    background-color: var(--dark-glass);
+    color: var(--orange);
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    margin: 20px;
+    margin-left: 3px;
     float: right;
 }
 
@@ -196,3 +238,22 @@ button {
     width: device-width;
     zoom: 1.0;
 }
+
+#science-calculator {
+    min-height: 400px;
+}
+
+path.main-colour {
+    transition: fill 3s ease-out
+}
+
+path:hover {
+    cursor: pointer;
+    fill: rgb(245, 237, 122);
+}
+
+rect.middle:hover {
+    cursor: pointer;
+    fill: rgb(245, 237, 122);
+}
+  
