@@ -1,11 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap);
 :root {
     --black: rgb(0, 0, 0);
-    --test-glass: rgba(0, 0, 0, 0.8);
     --orange: rgb(243, 183, 71);
-    --dark: rgba(0, 17, 17, 1);
-    --base-metric: 100px;
-    --header-height: var(--base-metric);
 }
 
 html {
@@ -92,7 +88,7 @@ body.light-theme>main>div>form>select {
     color: var(--black)
 }
 
-body.light-theme>div>div{
+body.light-theme>div>div {
     background-color: white;
     color: var(--black)
 }
@@ -287,7 +283,6 @@ rect.middle:hover {
     width: 100%;
     height: 100%;
     overflow: auto;
-    /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
 }
 
 /* Modal Content */
