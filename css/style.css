@@ -167,7 +167,10 @@ button {
     font-weight: bold;
     cursor: pointer;
     width: 70px;
-    /* margin: 20px; */
+}
+
+button:hover {
+    color: rgb(151, 99, 3);
 }
 
 #calculate {
@@ -228,6 +231,10 @@ button {
     float: right;
 }
 
+.commands:hover {
+    color: rgb(151, 99, 3);
+}
+
 @media screen and (max-width: 600px) {
     .app {
         width: 100%;
@@ -284,20 +291,19 @@ rect.middle:hover {
     margin: auto;
     padding: 20px;
     border: 1px solid var(--orange);
-    width: 40%;
-    height: 40%;
+    width: 44%;
+    height: 44%;
 }
 
-.modal-content>h2 {
+.top-part>h2 {
     border-bottom: 1px solid var(--orange);
     font-size: 16px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
-
-/* The Close Button */
 
 .close {
     color: var(--orange);
+    display: block;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -311,5 +317,14 @@ rect.middle:hover {
 
 .p3 {
     font-weight: 15px;
-    padding-top: 5px;
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--orange);
+}
+
+a:hover {
+    color: rgb(151, 99, 3);
 }
