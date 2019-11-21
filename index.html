@@ -15,6 +15,7 @@
 <header>
     <h1 id="header-title">Kalculatip</h1>
     <div class="commands">
+        <button id="about">about</button>
         <button id="change-theme-btn">theme</button>
         <a class="pic" href="https://github.com/bkenza">
             <img src="GitHub-Mark-Light-32px.png">
@@ -24,33 +25,151 @@
 
 <body>
     <main class="app">
+        <div class="box2">
+            <svg height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg">
+                <g id="science_calculator" data-name="science calculator">
+                    <rect fill="#ff7956" height="58" rx="2" width="44" x="10" y="3" />
+                    <path class="main-colour"
+                        d="m54 5v54a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-54a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z"
+                        fill="#ff6243" />
+                    <path d="m44 51h6v6h-6z" fill="#00eed1" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="44" y="42" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="44" y="33" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="44" y="24" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="34" y="51" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="34" y="42" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="34" y="33" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="34" y="24" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="24" y="51" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="24" y="42" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="24" y="33" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="24" y="24" />
+                    <rect class="middle" fill="#00d7df" height="13" rx="2" width="36" x="14" y="7" />
+                    <path
+                        d="m50 9v9a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-9a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z"
+                        fill="#00b6bd" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="14" y="51" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="14" y="42" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="14" y="33" />
+                    <rect fill="#00eed1" height="6" rx="2" width="6" x="14" y="24" />
+                    <g fill="#00ddc2">
+                        <path
+                            d="m20 26v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m30 26v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m40 26v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m50 26v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m20 35v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m30 35v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m40 35v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m50 35v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m20 44v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m30 44v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m40 44v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m50 44v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m20 53v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m30 53v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m40 53v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                        <path
+                            d="m50 53v2a2.006 2.006 0 0 1 -2 2h-2a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 0 -2-2h2a2.006 2.006 0 0 1 2 2z" />
+                    </g>
+                    <path
+                        d="m52 2h-40a3 3 0 0 0 -3 3v54a3 3 0 0 0 3 3h40a3 3 0 0 0 3-3v-54a3 3 0 0 0 -3-3zm1 57a1 1 0 0 1 -1 1h-40a1 1 0 0 1 -1-1v-54a1 1 0 0 1 1-1h40a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m48 6h-32a3 3 0 0 0 -3 3v9a3 3 0 0 0 3 3h32a3 3 0 0 0 3-3v-9a3 3 0 0 0 -3-3zm1 12a1 1 0 0 1 -1 1h-32a1 1 0 0 1 -1-1v-9a1 1 0 0 1 1-1h32a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m50 50h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6a1 1 0 0 0 -1-1zm-1 6h-4v-4h4z" />
+                    <path
+                        d="m48 32h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m38 32h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m28 32h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m18 32h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m48 23h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m38 23h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m28 23h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m18 23h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m48 41h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m38 41h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m28 41h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m18 41h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m38 50h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m28 50h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m18 50h-2a3 3 0 0 0 -3 3v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-2a3 3 0 0 0 -3-3zm1 5a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z" />
+                    <path
+                        d="m46 10h-4a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-6a1 1 0 0 0 -1-1zm-1 6h-2v-4h2z" />
+                    <path
+                        d="m38 10h-4a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-6a1 1 0 0 0 -1-1zm-1 6h-2v-4h2z" />
+                    <path
+                        d="m30 10h-4a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-6a1 1 0 0 0 -1-1zm-1 6h-2v-4h2z" />
+                    <path d="m17 10h2v2h-2z" />
+                </g>
+            </svg>
+            <!-- <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340">
+                <circle cx="170" cy="170" r="180" stroke="#F0992C" />
+                <circle cx="170" cy="170" r="155" stroke="#FFFFFF" />
+                <circle cx="170" cy="170" r="130" stroke="#F0992C" />
+                <circle cx="170" cy="170" r="105" stroke="#000000" />
+                <circle cx="170" cy="170" r="105" stroke="#F0992C" />
+                <circle cx="170" cy="170" r="105" stroke="#FFFFFF" />
+                <circle cx="170" cy="170" r="105" stroke="#F0992C" />
+                <circle cx="170" cy="170" r="105" stroke="#000000" />
+            </svg> -->
+        </div>
+        <div class="box1">
             <img class="center" src="images/banking.png" alt="money" height="100" width="85">
-        <h1>Tip calculator</h1>
-        <p>Fill out the following form and I will calculate the tip amount for you!</p>
-
-        <form>
-            <p>How much is your bill?</p>
-            $<input id="bill-amount" type="text" placeholder="Bill amount">
-            <p>On a scale of 1 to 5, how good was the service?</p>
-            <select id="service-quality">
-                <option disabled selected value="0">-- Choose an option --</option>
-                <option value="0.3">30&#37; &#45; Eggcellent</option>
-                <option value="0.2">20&#37; &#45; Good</option>
-                <option value="0.15">15&#37; &#45; Average</option>
-                <option value="0.1">10&#37; &#45; Not the best</option>
-                <option value="0.05">5&#37; &#45; Terrible</option>
-            </select>
-            <p>How many people are you?</p>
-            <input id="people-num" type="text" placeholder="Number of people"> people </br>
-            <button type="button" class="calc" id="calculate">Calculate</button>
-        </form>
-        <div id="totalTip">
+            <h1>Tip calculator</h1>
+            <p class="p1">Fill out the following form and I will calculate the tip amount for you!</p>
+            <form>
+                <p>How much is your bill?</p>
+                <input id="bill-amount" type="text" placeholder="Bill amount">
+                <p>On a scale of 1 to 5, how good was the service?</p>
+                <select id="service-quality">
+                    <option disabled selected value="0">-- Choose an option --</option>
+                    <option value="0.3">30&#37; &#45; Eggcellent</option>
+                    <option value="0.2">20&#37; &#45; Good</option>
+                    <option value="0.15">15&#37; &#45; Average</option>
+                    <option value="0.1">10&#37; &#45; Not the best</option>
+                    <option value="0.05">5&#37; &#45; Terrible</option>
+                </select>
+                <p>How many people are you?</p>
+                <input id="people-num" type="text" placeholder="Number of people">
+                <button type="button" class="calc" id="calculate">Calculate</button>
+            </form>
+            <div id="totalTip">
                 <sup>$</sup><span id="tip">0.00</span>
                 <small id="each">each</small>
-              </div>
-       
+            </div>
+        </div>
 
-<!-- credit <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+
+        <!-- credit <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
     </main>
     <script type="text/javascript" src="main.js"></script>
 </body>
