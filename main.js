@@ -72,6 +72,6 @@ const modal = document.getElementById('about-modal');
 const aboutButton = document.getElementById('about');
 aboutButton.addEventListener('click', openModal);
 
-const okButton = document.getElementById('ok');
-okButton.addEventListener('click', closeModal);
+const span = document.getElementsByClassName('close')[0];
+span.addEventListener('click', closeModal);
 
