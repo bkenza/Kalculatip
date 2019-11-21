@@ -102,14 +102,17 @@ h1 {
     margin: 100px, 100px;
 }
 
-p {
+.p1 {
+    margin: 5px;
     text-align: center;
     color: var(--white);
     font-size: 20px;
 }
 
-.p1 {
-    margin: 5px;
+.p2 {
+    text-align: center;
+    color: var(--white);
+    font-size: 20px;
 }
 
 input {
@@ -256,4 +259,57 @@ rect.middle:hover {
     cursor: pointer;
     fill: rgb(245, 237, 122);
 }
-  
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+}
+
+/* Modal Content */
+
+.modal-content {
+    background-color: var(--black);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid var(--orange);
+    width: 40%;
+    height: 40%;
+}
+
+.modal-content>h2 {
+    border-bottom: 1px solid var(--orange);
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+/* The Close Button */
+
+.close {
+    color: var(--orange);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.p3 {
+    font-weight: 15px;
+    padding-top: 5px;
+}

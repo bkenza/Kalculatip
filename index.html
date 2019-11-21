@@ -147,9 +147,9 @@
             <h1>Tip calculator</h1>
             <p class="p1">Fill out the following form and I will calculate the tip amount for you!</p>
             <form>
-                <p>How much is your bill?</p>
+                <p class="p2">How much is your bill?</p>
                 <input id="bill-amount" type="text" placeholder="Bill amount">
-                <p>On a scale of 1 to 5, how good was the service?</p>
+                <p class="p2">On a scale of 1 to 5, how good was the service?</p>
                 <select id="service-quality">
                     <option disabled selected value="0">-- Choose an option --</option>
                     <option value="0.3">30&#37; &#45; Eggcellent</option>
@@ -158,7 +158,7 @@
                     <option value="0.1">10&#37; &#45; Not the best</option>
                     <option value="0.05">5&#37; &#45; Terrible</option>
                 </select>
-                <p>How many people are you?</p>
+                <p class="p2">How many people are you?</p>
                 <input id="people-num" type="text" placeholder="Number of people">
                 <button type="button" class="calc" id="calculate">Calculate</button>
             </form>
@@ -167,11 +167,24 @@
                 <small id="each">each</small>
             </div>
         </div>
-
-
         <!-- credit <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
     </main>
+    <!-- The Modal -->
+    <div id="about-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Welcome to Kalculatip!</h2>
+            <p class="p3">Given that this is an early alpha version, only a few basic features have been implemented thus far. That
+                includes: calculating the tip amount and toggling the theme/contrast of the website.</p>
+            <p class="p3">Check back for new features and improvements, and if you would like to contribute to this project, check
+                out
+                the github page at: </p>
+            <a href="https://github.com/bkenza/Kalculatip">https://github.com/bkenza/Kalculatip </a>
+        </div>
+    </div>
     <script type="text/javascript" src="main.js"></script>
 </body>
+
 
 </html>
