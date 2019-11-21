@@ -1,7 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap);
 :root {
     --black: rgb(0, 0, 0);
+    --test-glass: rgba(0, 0, 0, 0.8);
     --orange: rgb(243, 183, 71);
+    --dark: rgba(0, 17, 17, 1);
+    --base-metric: 100px;
+    --header-height: var(--base-metric);
 }
 
 html {
@@ -189,11 +193,11 @@ button:hover {
     height: 620px;
     background-color: var(--black);
     display: flex;
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
+    display: flex; */
     flex-direction: row;
     flex-flow: row wrap;
 }
