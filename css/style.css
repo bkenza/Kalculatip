@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap);
+:root {
+    --black: rgb(0, 0, 0);
+    --test-glass: rgba(0, 0, 0, 0.8);
+    --orange: rgb(243, 183, 71);
+    --dark: rgba(0, 17, 17, 1);
+    --base-metric: 100px;
+    --header-height: var(--base-metric);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header>h1 {
+    z-index: 1;
+    float: left;
+    color: var(--orange);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    margin: 10px 0 0 8px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px var(--orange);
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background-color: var(--black);
+    color: white;
+    transition: all 0.15s ease-out;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body.light-theme {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+body.light-theme>main {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+body.light-theme>main {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+body.light-theme>main button {
+    background-color: var(--white);
+}
+
+body.light-theme>main a {
+    background-color: var(--white);
+}
+
+header {
+    width: 100%;
+    height: var(--header-height);
+}
+
+h1 {
+    text-align: center;
+    margin: 100px, 100px;
+}
+
+p {
+    text-align: center;
+    color: var(--white);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+form {
+    justify-content: center;
+}
+
+input {
+    width: 120px;
+    margin: 20px;
+    background-color: var(--black);
+    color: white;
+    border: 2px solid var(--orange);
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    padding: 13px 13px 20px 20px;
+}
+
+select {
+    width: 160px;
+    margin: 20px;
+    background-color: var(--black);
+    color: white;
+    border: 2px solid var(--orange);
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    padding: 13px 13px 20px 20px;
+}
+
+#people-num {
+    width: 160px;
+    margin: 20px;
+    background-color: var(--black);
+    color: white;
+    border: 2px solid var(--orange);
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    padding: 13px 13px 20px 20px;
+}
+
+#bill-amount {
+    padding: 13px 13px 20px 20px;
+}
+
+button {
+    font-size: 14px;
+    display: block;
+    border: 1px solid var(--orange);
+    background-color: var(--dark-glass);
+    color: var(--orange);
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    width: 70px;
+    margin: 20px;
+}
+
+#calculate {
+    height: 30px;
+    width: 80px;
+}
+
+.app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    min-height: 300px;
+    background-color: var(--black);
+}
+
+#change-theme-btn {
+    font-size: 14px;
+    display: block;
+    border: 1px solid var(--orange);
+    background-color: var(--dark-glass);
+    color: var(--orange);
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    margin: 20px;
+    float: right;
+}
+
+.pic {
+    padding-top: 18px;
+    padding-right: 10px;
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .app {
+        width: 100%;
+    }
+    .quote-text {
+        font-size: 18px;
+    }
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
