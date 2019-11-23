@@ -278,6 +278,8 @@ rect.middle:hover {
     fill: rgb(245, 237, 122);
 }
 
+/* Modal Content */
+
 .modal {
     display: none;
     position: fixed;
@@ -289,8 +291,6 @@ rect.middle:hover {
     height: 100%;
     overflow: auto;
 }
-
-/* Modal Content */
 
 .modal-content {
     background-color: var(--black);
